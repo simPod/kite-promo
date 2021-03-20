@@ -1,0 +1,49 @@
+.container {
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
+    @apply items-center;
+
+    @apply min-h-screen;
+}
+.background {
+    @apply flex;
+    @apply flex-col;
+    @apply justify-center;
+    @apply min-h-screen;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: -1;
+}
+
+.background:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @apply bg-coolGray-800;
+    @apply bg-opacity-50;
+}
+
+.inner {
+    flex: 0;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.content {
+    @apply bg-coolGray-200;
+    @apply bg-opacity-80;
+    @apply p-28;
+    max-width: 500px;
+    width: 100%;
+}
