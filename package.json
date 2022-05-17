@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.0.5",
     "eslint-plugin-typescript-sort-keys": "^1.5.0",
-    "postcss": "^8.2.8",
+    "postcss": "^8.2.13",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.0.4",
     "typescript": "^4.1.2"
