@@ -3,7 +3,7 @@ import { PhotoStream } from '../lib/PhotoStream/PhotoStream';
 
 import styles from './Layout.module.css';
 
-export const Layout: React.FC = ({ children }) => (
+export const Layout: React.FC<React.PropsWithChildren> = ({ children }) => (
   <div className={styles.container}>
     <div className={styles.background}>
       <div className={styles.spacer}> </div>
