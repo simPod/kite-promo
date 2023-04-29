@@ -1,6 +1,6 @@
 {
-  "name": "simpod.codes-kite",
-  "license": "proprietary",
+  "name": "kite-podlipsky",
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
