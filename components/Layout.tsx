@@ -31,7 +31,7 @@ export const Layout: React.FC = ({ children }) => (
         <li>Snowkiting</li>
         <li>kiteboarding</li>
       </ul>
-      <p>Contact at <a href="mailto:a@simpod.codes">a@simpod.codes</a></p>
+      <p>Contact at <a href="mailto:simon@podlipsky.net">simon@podlipsky.net</a></p>
     </div>
     {children}
   </div>
