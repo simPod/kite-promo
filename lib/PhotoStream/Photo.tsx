@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 import styles from './Photo.module.css';
@@ -25,11 +26,7 @@ export class Photo extends React.Component {
     const { picture, altText } = this.props;
 
     return (
-      <img
-        className={styles.photo}
-        src={picture}
-        alt={altText}
-      />
+      <Image src={picture} alt={altText} className={styles.photo} />
     );
   }
 }
