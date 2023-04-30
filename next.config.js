@@ -1,4 +1,4 @@
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = process.env.NODE_ENV === 'production';
 
 const basePrefix = process.env.BASE_PREFIX ?? '';
 const baseUrl = process.env.BASE_URL ?? 'https://kite.podlipsky.net';
@@ -8,6 +8,8 @@ const env = {
 };
 
 module.exports = {
+  output: 'export',
   basePath: basePrefix,
   env,
+  images: { unoptimized: true },
 };
